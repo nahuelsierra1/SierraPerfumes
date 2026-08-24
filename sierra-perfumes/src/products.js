@@ -1,0 +1,117 @@
+// EDITÁ SOLAMENTE ESTE ARCHIVO PARA CAMBIAR TU CATÁLOGO.
+// Podés agregar, quitar o modificar perfumes sin tocar los componentes.
+
+export const products = [
+  {
+    id: "sauvage",
+    name: "Sauvage",
+    brand: "Christian Dior",
+    category: "masculinos",
+    price: 25000,
+    image: "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=900&q=85",
+    size: "60 ml",
+    type: "Extracto",
+    notes: ["Fresco", "Especiado", "Ámbar"],
+    description: "Una fragancia fresca, especiada y masculina, ideal para uso diario y ocasiones especiales.",
+    stock: true,
+    featured: true
+  },
+  {
+    id: "le-male",
+    name: "Le Male",
+    brand: "J.P. Gaultier",
+    category: "masculinos",
+    price: 25000,
+    image: "https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=900&q=85",
+    size: "60 ml",
+    type: "Extracto",
+    notes: ["Fresco", "Vainilla", "Aromático"],
+    description: "Aromático y seductor, con un perfil fresco y dulce.",
+    stock: true,
+    featured: true
+  },
+  {
+    id: "eros",
+    name: "Eros",
+    brand: "Versace",
+    category: "masculinos",
+    price: 25000,
+    image: "https://priveperfumes.com/cdn/shop/files/perfume-versace-eros-edt-m-100-ml-1-prive-perfumes.webp?v=1785306617&width=2000",
+    size: "60 ml",
+    type: "Extracto",
+    notes: ["Menta", "Manzana", "Vainilla"],
+    description: "Una fragancia intensa, fresca y dulce con una presencia marcada.",
+    stock: true,
+    featured: false
+  },
+  {
+    id: "yara",
+    name: "Yara",
+    brand: "Lattafa",
+    category: "femeninos",
+    price: 25000,
+    image: "https://images.unsplash.com/photo-1615634260167-c8cdede054de?auto=format&fit=crop&w=900&q=85",
+    size: "60 ml",
+    type: "Extracto",
+    notes: ["Frutal", "Crema", "Vainilla"],
+    description: "Dulce, cremoso y femenino, con un perfil gourmand muy agradable.",
+    stock: true,
+    featured: true
+  },
+  {
+    id: "good-girl",
+    name: "Good Girl",
+    brand: "Carolina Herrera",
+    category: "femeninos",
+    price: 25000,
+    image: "https://images.unsplash.com/photo-1563170351-be82bc888aa4?auto=format&fit=crop&w=900&q=85",
+    size: "60 ml",
+    type: "Extracto",
+    notes: ["Dulce", "Cacao", "Floral"],
+    description: "Elegante y sensual, con un contraste entre notas dulces y florales.",
+    stock: true,
+    featured: false
+  },
+  {
+    id: "baccarat",
+    name: "Baccarat Rouge 540",
+    brand: "Maison Francis Kurkdjian",
+    category: "unisex",
+    price: 25000,
+    image: "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=900&q=85",
+    size: "60 ml",
+    type: "Extracto",
+    notes: ["Azafrán", "Ambarado", "Dulce"],
+    description: "Una fragancia sofisticada y reconocible, pensada para quienes buscan destacar.",
+    stock: true,
+    featured: true
+  },
+  {
+    id: "oud-wood",
+    name: "Oud Wood",
+    brand: "Tom Ford",
+    category: "unisex",
+    price: 25000,
+    image: "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=900&q=85",
+    size: "60 ml",
+    type: "Extracto",
+    notes: ["Oud", "Amaderado", "Especiado"],
+    description: "Cálido, amaderado y sofisticado.",
+    stock: true,
+    featured: false
+  },
+  {
+    id: "khamrah",
+    name: "Khamrah",
+    brand: "Lattafa",
+    category: "unisex",
+    price: 25000,
+    image: "https://images.unsplash.com/photo-1619994403073-2cec844b8e63?auto=format&fit=crop&w=900&q=85",
+    size: "60 ml",
+    type: "Extracto",
+    notes: ["Canela", "Vainilla", "Dulce"],
+    description: "Dulce, especiado y envolvente.",
+    stock: false,
+    featured: false
+  }
+];
